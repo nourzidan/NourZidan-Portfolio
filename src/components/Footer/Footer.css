@@ -1,6 +1,6 @@
 .footer-div{
     
-    height: 50px;
+    height: max-content;
     padding: 5px 15px;
         .container-footer{
             display: flex;
