@@ -1,0 +1,18 @@
+.footer-div{
+    
+    height: 50px;
+    padding: 5px 15px;
+        .container-footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 10px;
+            border-top: 1px solid rgba(190, 192, 191, 1);
+        }
+    
+}
+
+.darkfooter{
+    background-color: rgba(27, 36, 49, 1);
+    color: white;
+}

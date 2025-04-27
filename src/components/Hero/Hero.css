@@ -1,0 +1,376 @@
+.hero-sectiondark{
+    padding: 5px 15px;
+    /* margin-top: 20px; */
+background-image:url('/assets/Lines.svg') ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgba(27, 36, 49, 1);
+    
+    /* height: calc(100vh - 50px); */
+    height: 100vh;
+    
+   
+
+    
+    .contant-div{
+        width: 100%;
+        height: 100%;
+      
+                .continer{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 100%;
+                color: white;
+                
+                .text-div{
+                    width: 50%;
+                    gap: 40px;
+                    height: 100%;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+            .cv-btn {
+        position: relative;
+        width: 155px;
+        height: 50px;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        border-radius: 6px;
+        background: rgba(12, 150, 226, 0.6);
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+        z-index: 1;
+        transition: all .4s ease-in-out;
+    }
+     .cv-btn::before{
+        position: absolute;
+        content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    transition: all .4s ease-in-out;
+
+     }
+     .cv-btn:hover{
+        background-color: #283c85;
+     }
+     .cv-btn:hover::before{
+        transform: rotate(-10deg);
+    background-color: #0c96e2;
+    z-index: -1 !important;
+    }
+
+    
+
+                    .bgimg{
+                        
+                        position: absolute;
+                        width: 62%;
+                        height: 82%;
+                    }
+                    .fir-p{
+                        font-weight: 400;
+                    }
+                    
+                } 
+                .myimg-div{
+                    position: relative;
+                    height: 100%;
+                    width: 65%;
+                    background-image: url("/assets/Circle.svg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    /* background-size: inherit; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .squer{
+                        position: absolute;
+                        width: 65%;
+                    }
+                    .myimg{
+                        width: 280px;
+                        border-radius: 40%;
+                    }
+                }  
+            }       
+        }
+    } 
+
+    /* =========small============== */
+    @media (min-width: 300px) and (max-width: 480px) {
+        .hero-sectiondark , .hero-sectionlight {
+            padding: 5px 15px !important;
+            
+        background-image:url('/assets/Lines.svg') ;
+            background-size: contain !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            
+            height: max-content !important;
+            /* height: calc(100vh - 50px); */
+            /* height: 100vh; */
+            padding-top: 100px !important;
+           
+        
+            
+            .contant-div{
+                width: 100% !important;
+                height: 100% !important;
+              
+                        .continer{
+                            flex-wrap: wrap !important;
+                        display: flex !important;
+                        align-items: center !important;
+                        justify-content: center !important;
+                        height: 100% !important;
+                        /* color: white; */
+                        
+                        .text-div{
+                            width: 100% !important;
+                            gap: 55px !important;
+                            height: 100% !important;
+                            align-items: center!important;
+                            display: flex!important;
+                            flex-direction: column!important;
+                            justify-content: center!important;
+                            
+                           
+                            .bgimg{
+                                
+                                position: absolute !important;
+                                width: 100% !important;
+                                height: 35% !important;
+                            }
+                            
+                        } 
+                        .myimg-div{
+                            position: relative !important;
+                            margin-top: 20px !important;
+                            height: 100% !important;
+                            width: 100% !important;
+                            background-size: contain !important;
+                            background-image: url("/assets/Circle.svg");
+                            background-position: center !important;
+                            background-repeat: no-repeat !important;
+                            display: flex !important;
+                            justify-content: center !important;
+                            align-items: center !important;
+                            
+                            .squer{
+                                position: absolute !important;
+                                 width: 77% !important;
+                            }
+                            
+                            .myimg{
+                                width: 185px !important;
+                                border-radius: 40% !important;
+                            }
+                        }  
+                    }       
+                }
+            } 
+            
+            
+      }  
+
+      /* =================MD========== */
+
+      @media (min-width: 481px) and (max-width: 782px) {
+
+        .hero-sectiondark , .hero-sectionlight {
+            padding: 5px 15px;
+            /* margin-top: 20px; */
+        background-image:url('/assets/Lines.svg') ;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-color:rgba(27, 36, 49, 1); */
+            
+            /* height: calc(100vh - 50px); */
+            height: 100vh;
+            
+           
+        
+            
+            .contant-div{
+                width: 100%;
+                height: 100%;
+              
+                        .continer{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 100%;
+                        /* color: white; */
+                        
+                        .text-div{
+                            width: 50%;
+                            gap: 45px !important;
+                            height: 100%;
+                            align-items: center;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            
+                           
+                            .bgimg{
+                                
+                                position: absolute;
+                                width: 62%;
+                                height: 82%;
+                            }
+                            .fir-p{
+                                font-weight: 400;
+                            }
+                            
+                        } 
+                        .myimg-div{
+                            position: relative;
+                            height: 100%;
+                            width: 50% !important;
+                            background-image: url("/assets/Circle.svg");
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain !important;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .squer{
+                                position: absolute !important;
+                                width: 90% !important;
+                            }
+                            .myimg{
+                                width: 70% !important;
+                                border-radius: 40% !important;
+                            }
+                        }  
+                    }       
+                }
+            } 
+
+      }
+
+/* =================== */
+
+.hero-sectionlight{
+    padding: 5px 15px;
+    /* margin-top: 20px; */
+background-image:url('/assets/Lines.svg') ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:white;
+    
+    /* height: calc(100vh - 50px); */
+    height: 100vh;
+    
+   
+
+    
+    .contant-div{
+        width: 100%;
+        height: 100%;
+      
+                .continer{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 100%;
+                color:black;
+                
+                .text-div{
+                    width: 50%;
+                    gap: 40px;
+                    height: 100%;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+            .cv-btn {
+        position: relative;
+        width: 155px;
+        height: 50px;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        border-radius: 6px;
+        background: rgba(12, 150, 226, 0.6);
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+        z-index: 1;
+        transition: all .4s ease-in-out;
+    }
+     .cv-btn::before{
+        position: absolute;
+        content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    transition: all .4s ease-in-out;
+
+     }
+     .cv-btn:hover{
+        background-color: #283c85;
+     }
+     .cv-btn:hover::before{
+        transform: rotate(-10deg);
+    background-color: #0c96e2;
+    z-index: -1 !important;
+    }
+
+    
+
+                    .bgimg{
+                        
+                        position: absolute;
+                        width: 62%;
+                        height: 82%;
+                    }
+                    .fir-p{
+                        font-weight: 400;
+                    }
+                    
+                } 
+                .myimg-div{
+                    position: relative;
+                    height: 100%;
+                    width: 65%;
+                    background-image: url("/assets/Circle.svg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    /* background-size: inherit; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .squer{
+                        position: absolute;
+                        width: 65%;
+                    }
+                    .myimg{
+                        width: 280px;
+                        border-radius: 40%;
+                    }
+                }  
+            }       
+        }
+
+}

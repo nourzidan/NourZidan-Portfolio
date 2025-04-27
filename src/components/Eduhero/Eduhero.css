@@ -1,0 +1,155 @@
+.edu-sectiondark , .edu-sectionlight{
+    background-color: rgba(27, 36, 49, 1);
+    padding: 5px 15px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    .head-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        h3{
+            text-align: center;
+            color: rgba(12, 150, 226, 1);
+        }
+        h1{
+            text-align: center;
+            font-size: xx-large;
+            color: white;
+            
+        }
+
+       
+    }
+
+    .main-contant-div{
+        display: flex;
+       color: black;
+       /* background-color: blanchedalmond; */
+       position: relative;
+       .edu-squers{
+        position: absolute;
+            z-index: 0;
+            top: -105px;
+            right: 15px;
+            width: 100px;
+            height: 100px;
+            transform: rotate(18deg);
+        
+    }
+        .left-div{
+            height: 100%;
+            display: flex;
+            img{
+                height: 100%;
+            }
+
+            .container{
+                display: flex;
+                flex-direction: column;
+                padding-left: 10px;
+                gap: 30px;
+            }
+        }
+        .right-div{
+            height: 100%;
+            display: flex;
+            img{
+                height: 100%;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                padding-left: 10px;
+                gap: 30px;
+            }
+        }
+
+    }
+   
+}
+
+/* ============= */
+
+.edu-sectionlight{
+    background-color: white !important;
+    .head-div{
+        h1{
+            color: black;
+        }
+    }
+}
+
+
+.edu-sectiondark{
+   
+    .head-div{
+        h1{
+            
+        }
+    }
+   .main-contant-div{
+    color: white;
+   }
+}
+
+
+/* =========MD========== */
+
+@media (min-width: 481px) and (max-width: 782px) {
+
+    .edu-sectiondark{
+        height: fit-content;
+    padding-top: 90px;
+        gap: 15px !important;
+    }
+    .main-contant-div{
+  flex-wrap: wrap;
+  gap: 10px
+}
+.left-div , .right-div{
+    /* height: 50% !important; */
+    height: auto !important;
+}
+.container{
+   gap: 65px !important;
+}
+.line-img{
+  height: 100%;
+}
+
+}
+
+/* =========Small========== */
+
+@media (min-width: 300px) and (max-width: 480px) {
+        .edu-sectiondark , .edu-sectionlight{
+            padding-top: 50px !important;
+        gap: 15px !important;
+        height: fit-content !important;
+    }
+    .main-contant-div{
+  flex-wrap: wrap !important;
+  font-size: 13px;
+  gap: 20px !important;
+}
+.left-div , .right-div{
+    /* height: 50% !important; */
+    height: auto !important;
+}
+.container{
+   gap: 10px !important;
+}
+.line-img{
+  /* height: auto !important;
+  width: 15px !important; */
+  height: 91% !important;
+  width: auto !important;
+}
+}

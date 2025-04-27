@@ -1,0 +1,106 @@
+
+
+
+/* ============= */
+
+.pro-section{
+    padding: 5px 15px;
+    min-height: 100vh;
+    padding-top: 50px;
+    .top-div{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .t-left-div{
+            display: flex;
+                flex-direction: column;
+                gap: 23px;
+            .main-titel{
+               color:rgba(12, 150, 226, 1) ;
+
+                        }
+                        .text-h2{
+                            .sp-text{
+                                display: flex;
+                                gap: 5px;
+                                .latest{
+                                 }
+                                 .project{
+                                    color: rgba(12, 150, 226, 1);
+                       
+                    }
+            }
+
+            }
+
+        }
+        .t-right-div{
+           
+            align-content: flex-end;
+            .git-a {
+                position: relative;
+                width: 100%;
+                height: 50px;
+                display: flex; 
+                align-items: center; 
+                justify-content: space-around; 
+                border-radius: 6px;
+                background: rgba(12, 150, 226, 0.6);
+                text-decoration: none;
+                font-size: 24px;
+                font-weight: 700;
+                color: white;
+                transition: all 0.4s ease-in-out;
+                cursor: pointer;
+                z-index: 1;
+                transition: all .4s ease-in-out;
+                padding: 5px;
+                gap: 5px;
+                .btn-img{
+                    transform: rotate(45deg);
+                }
+                
+            }
+             .git-a::before{
+                position: absolute;
+                content: "";
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            border-radius: 6px;
+            transition: all .4s ease-in-out;
+        
+             }
+             .git-a:hover{
+                background-color: #283c85;
+             }
+             .git-a:hover::before{
+                transform: rotate(-10deg);
+            background-color: #0c96e2;
+            z-index: -1 !important;
+            }     
+        }
+    }
+    .bottom-div{
+        .project-grid{
+            display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+        }
+    }
+}
+
+/* ======================== */
+
+.dark{
+    .top-div{
+        .t-left-div{
+            .text-h2{
+                color: white;
+            }
+        }
+    }
+}
